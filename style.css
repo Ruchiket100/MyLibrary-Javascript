@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: #e9c46a;
+}
+header {
+  color: #264653;
+  text-align: center;
+  padding: 1rem;
+  font-size: 2.5vh;
+  margin-bottom: 5px;
+}
+.all-inputs {
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.all-inputs H4 {
+  color: #264653;
+  padding: 0.2rem;
+  font-size: 13px;
+}
+.status-div {
+  display: flex;
+  flex-direction: column;
+}
+.all-inputs input {
+  height: 5ch;
+  width: 40vh;
+  color: white;
+  font-size: 15px;
+  background-color: #f4a261;
+  font-weight: bold;
+  border-radius: 5px;
+  padding-left: 5px;
+  color: #264653;
+}
+.submit-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5vh;
+  height: 5ch;
+  margin-top: 10px;
+  cursor: pointer;
+  background: none;
+  color: #e76f51;
+}
+.submit-btn i {
+  font-size: 40px;
+}
+.submit-btn:hover {
+  color: #2a9d8f;
+  transition: all 0.3s ease;
+}
+button,
+input {
+  border: hidden;
+  cursor: pointer;
+  outline: none;
+}
+.Reading,
+.Want-List,
+.Completed {
+  padding: 3px;
+  border-radius: 2px;
+  color: #264653;
+  margin: 1px;
+}
+.Reading {
+  background-color: rgb(183, 231, 191);
+}
+.Want-List {
+  background-color: rgb(231, 165, 198);
+}
+.Completed {
+  background-color: rgb(167, 217, 231);
+}
+.btnDiv {
+  background-color: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40vh;
+}

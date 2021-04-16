@@ -89,3 +89,10 @@ input {
   align-items: center;
   width: 40vh;
 }
+
+.library {
+  background-color: #264653;
+  height: 50vh;
+  margin-top: 20px;
+}
+

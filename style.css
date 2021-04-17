@@ -5,7 +5,7 @@
   font-family: "Poppins", sans-serif;
 }
 body {
-  background-color: #e9c46a;
+  background-color: #a9fbff;
 }
 header {
   color: #264653;
@@ -35,7 +35,7 @@ header {
   width: 40vh;
   color: white;
   font-size: 15px;
-  background-color: #f4a261;
+  background-color: #9dd6fa;
   font-weight: bold;
   border-radius: 5px;
   padding-left: 5px;
@@ -50,14 +50,14 @@ header {
   margin-top: 10px;
   cursor: pointer;
   background: none;
-  color: #e76f51;
+  color: #5ca5ff;
 }
 .submit-btn i {
   font-size: 40px;
 }
 .submit-btn:hover {
-  color: #2a9d8f;
   transition: all 0.3s ease;
+  color: #038ee4;
 }
 button,
 input {
@@ -91,8 +91,50 @@ input {
 }
 
 .library {
-  background-color: #264653;
-  height: 50vh;
   margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  height: auto;
 }
 
+/* ReadingPressed mistakenly  */
+.ReadingPressed {
+  opacity: 30%;
+  transition: all 0.3s ease;
+  background-color: rgb(101, 101, 101);
+  padding: 2px;
+  pointer-events: none;
+}
+.library-div {
+  background-color: rgb(216, 253, 251);
+  height: 20rem;
+  width: 20rem;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+}
+.nameInput {
+  font-size: 25px;
+  color: #264653;
+}
+.authorInput {
+  font-size: 15px;
+  margin-bottom: 20px;
+  color: #5b889a;
+}
+
+.Image {
+  height: 50%;
+  width: 100%;
+  background-image: url(/img/books-01.png);
+  background-size: cover;
+  margin-bottom: 5px;
+}
+.maindiv {
+  display: flex;
+  justify-content: center;
+  height: auto;
+}

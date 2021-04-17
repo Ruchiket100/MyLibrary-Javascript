@@ -129,7 +129,7 @@ input {
 .Image {
   height: 50%;
   width: 100%;
-  background-image: url(/img/books-01.png);
+  background-image: url(./img/books-01.png);
   background-size: cover;
   margin-bottom: 5px;
 }
